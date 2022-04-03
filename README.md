@@ -31,11 +31,11 @@ Various robotics resources:
 ## Flight Controller:
 ### Ardupilot
 	https://discuss.ardupilot.org/t/ardupilot-2-8-balance-out-while-lifting/11544
-	https://youtu.be/_xKccGH4GcY
+	[Youtube](https://youtu.be/_xKccGH4GcY)
 	Short the pin for in-built compass
 
 ## Control System:
-### data-driven-dynamics: ETH Code
+### data-driven-dynamics: [ETH Git Code](https://github.com/ethz-asl/data-driven-dynamics)
 
 ## GUI:
 ### List of Web Tools for ROS Robots: [blog/web page](http://robotwebtools.org/)
