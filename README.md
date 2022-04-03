@@ -1,8 +1,7 @@
 # robotics-resources
 Various robotics resources:
 
-# UAV:  
-## Planners:  
+## UAV-Planners:  
 ### Fast-Planner: [git](https://github.com/HKUST-Aerial-Robotics/Fast-Planner), [Beomsu's PX4](https://github.com/beomsu7/Fast-Planner), [Mzahana's  PX4](https://github.com/mzahana/px4_fast_planner)  
 ### Ego-planner: [git](https://github.com/ZJU-FAST-Lab/ego-planner); Ego-planner-swarm: [code](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)  
 ### Agile_autonomy: [git](https://github.com/uzh-rpg/agile_autonomy)  
