@@ -73,8 +73,8 @@ https://cloudcitydrones.com/
 
 
 ## Object Tracking
-Blogs: [#1](https://viso.ai/deep-learning/object-tracking/), [#2](https://paperswithcode.com/task/object-tracking), [#3](https://www.v7labs.com/blog/object-tracking-guide), [#4](https://medium.com/visionwizard/object-tracking-675d7a33e687)
-Sort: [Git](https://github.com/abewley/sort), [Paper](https://arxiv.org/abs/1602.00763)
-Deept-Sort: [Git](https://github.com/nwojke/deep_sort), [Paper](https://arxiv.org/abs/1703.07402)
-ByteTrack: [Git](https://github.com/ifzhang/ByteTrack), [Paper](https://arxiv.org/abs/2110.06864)
-Kalman-Filter: [Blog](https://medium.com/@jaems33/understanding-kalman-filters-with-python-2310e87b8f48), [Library](https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html), [Paper](https://arxiv.org/pdf/1204.0375.pdf), [Code & Explaination - Recommended](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
+### Blogs: [#1](https://viso.ai/deep-learning/object-tracking/), [#2](https://paperswithcode.com/task/object-tracking), [#3](https://www.v7labs.com/blog/object-tracking-guide), [#4](https://medium.com/visionwizard/object-tracking-675d7a33e687)
+### Sort: [Git](https://github.com/abewley/sort), [Paper](https://arxiv.org/abs/1602.00763)
+### Deept-Sort: [Git](https://github.com/nwojke/deep_sort), [Paper](https://arxiv.org/abs/1703.07402)
+### ByteTrack: [Git](https://github.com/ifzhang/ByteTrack), [Paper](https://arxiv.org/abs/2110.06864)
+### Kalman-Filter: [Blog](https://medium.com/@jaems33/understanding-kalman-filters-with-python-2310e87b8f48), [Library](https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html), [Paper](https://arxiv.org/pdf/1204.0375.pdf), [Code & Explaination - Recommended](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
