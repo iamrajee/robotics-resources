@@ -51,8 +51,8 @@ Various robotics resources:
 ### Cloud-Controlled-4GLTE-Drone-GCS: [Git](https://github.com/abhijithrm/Cloud-Controlled-4GLTE-Drone-GCS)
 ### Dronekit/tower-web: [Git](https://github.com/abhijithrm/Cloud-Controlled-4GLTE-Drone-GCS) 
 ### GCS-uno: [Git](https://github.com/GCS-uno/gcs_uno_server), [Tutorial](https://docs.gcs.uno/ServerSetup/BasicInstallation/), [Git](https://github.com/GCS-uno/gcs_uno_server)
-https://www.cloudgroundcontrol.com/contact/
-https://cloudcitydrones.com/
+### [cloudgroundcontrol](https://www.cloudgroundcontrol.com/contact/)
+### [cloudcitydrones](https://cloudcitydrones.com/)
 ### Azure Cloud Services for DJI Drones: [blog](https://www.hackster.io/JiongShi/azure-cloud-services-for-dji-drones-d8d3a3)
 
 ## Drone Specific:
