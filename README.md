@@ -30,9 +30,12 @@ Various robotics resources:
 
 ## Flight Controller:
 ### Ardupilot
-	https://discuss.ardupilot.org/t/ardupilot-2-8-balance-out-while-lifting/11544
-	[Youtube](https://youtu.be/_xKccGH4GcY)
-	Short the pin for in-built compass
+#### [Youtube Tutorials](https://youtu.be/_xKccGH4GcY)
+Debuging: [balance-out-while-lifting](https://discuss.ardupilot.org/t/ardupilot-2-8-balance-out-while-lifting/11544)
+#### Note:
+```
+Short the pin for in-built compass
+```
 
 ## Control System:
 ### data-driven-dynamics: [ETH Git Code](https://github.com/ethz-asl/data-driven-dynamics)
