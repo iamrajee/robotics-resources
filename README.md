@@ -269,8 +269,8 @@ log file: /home/rajendra/.ros/log/cf8b4932-4483-11ec-a2f0-cf1b4db027f8/fast_plan
 
 # =================== Vins-fusion ============
 ```https://github.com/HKUST-Aerial-Robotics/VINS-Fusion```
-## ========== Run ============= #
-### ========== Run with Bagfile ============= #
+## ---------- Run ---------- #
+### ---------- Run with Bagfile ---------- #
 ```
 cd drone_ws/
 ### Open 4 terminals, and run each.
@@ -282,7 +282,7 @@ source devel/setup.bash && rosrun loop_fusion loop_fusion_node ~/drone_ws/src/VI
 
 source devel/setup.bash && rosbag play bagfiles/MH_04_difficult.bag  
 ```
-### ==========Run with Realsense d435 ============= #
+### ---------- Run with Realsense d435 ---------- #
 ```
 source devel/setup.bash && roslaunch vins vins_rviz.launch  
 
@@ -292,7 +292,7 @@ source devel/setup.bash && rosrun loop_fusion loop_fusion_node ~/drone_ws/src/VI
 
 source devel/setup.bash && roslaunch vins rs_camera_d435.launch  
 ```
-## =========Vins Installation & Error ======== ##
+## ---------- Vins Installation & Error ---------- ##
 ### 1. Clone
 ```
 cd ~/drone_ws/src
@@ -411,7 +411,7 @@ code loop_fusion/src/pose_graph_node.cpp
 code global_fusion/src/globalOpt.cpp  
 code global_fusion/src/globalOptNode.cpp  
 ```
-# ========== rtab drone examples ===========#
+# ========== rtab drone examples ===========
 ```
 cd drone_ws/src  
 https://github.com/matlabbe/rtabmap_drone_example  
@@ -439,7 +439,7 @@ rosrun rrt-planning rrt
 rosrun rviz rviz #add mark from available topic  
 ```
 
-# =============== XTDrone ============#
+# =============== XTDrone ============
 ## [Repo](https://github.com/robin-shaun/XTDrone); [README](https://github.com/robin-shaun/XTDrone/blob/master/README.en.md); [Docs](https://www.yuque.com/xtdrone/manual_en/basic_config); [Paper1](https://arxiv.org/abs/2003.09700); [Paper2](https://arxiv.org/abs/2005.01125); [OneTab](https://www.one-tab.com/page/0u1LirD-RLW6bT_6dFhM8Q)
 ```
 sudo apt install ros-melodic-mavros-extras  
@@ -482,7 +482,7 @@ sudo mv xtdrone_qt/ .xtdrone_qt/
 => ???  
 https://stackoverflow.com/questions/16710047/usr-bin-ld-cannot-find-lnameofthelibrary    
 
-## ========================== RUN XTDrone ========================== ##
+## ------------- RUN XTDrone ------------- ##
 
 ```
 cd ~/PX4-Autopilot  
@@ -501,7 +501,7 @@ python multirotor_keyboard_control.py iris 1 vel
 # ================ KALIBR ============ #
 ## Run ##
 ### Realsense 
-## -------- Record---------#
+## -------- Record---------
 ```
 cd ~/drone_ws/src/kalibr/aslam_offline_calibration/kalibr/python  
 roslaunch vins rs_camera_d435.launch  
@@ -517,10 +517,10 @@ rosrun topic_tools throttle messages /stereo_publisher/right/image 4.0 /cam1/ima
 
 rosbag record /cam0/image_raw /cam1/image_raw  
 ```
-## -------- Calibrate---------#
+## -------- Calibrate---------
 ./kalibr_calibrate_cameras --target april_6x6.yaml --bag 2022-05-11-12-08-13_d435_gray.bag  --models pinhole-radtan pinhole-radtan --topics /cam0/image_raw /cam1/image_raw  
 
-## -------- Test with Vins---------#
+## -------- Test with Vins---------
 
 
 ## Install ##
@@ -533,7 +533,9 @@ rosbag record /cam0/image_raw /cam1/image_raw
 
 ### ImportError: No module named sm
 => source devel/setup.bash  
-# ============= OAK ============ #
+
+
+# ============= OAK ============ 
 
 ## Could not find a package configuration file provided by "depthai"
 ```
@@ -567,7 +569,7 @@ source devel/setup.bash && rosbag play bagfiles/MH_04_difficult.bag
 roslaunch px4_realsense_bridge bridge_mavros_sitl.launch  
 ./QGroundControl.AppImage  
 
-# ====================== FUEL ===================
+# ==================== FUEL ===================
 ```https://github.com/HKUST-Aerial-Robotics/FUEL```
 ### T1
 source devel/setup.bash && roslaunch exploration_manager rviz.launch  
