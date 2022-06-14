@@ -67,7 +67,7 @@ Short the pin for in-built compass
 
 ## =========== Computer Vision ===========
 ### --------- Object Detection ---------
-### Yolo: v3([web]([url](https://pjreddie.com/darknet/yolo/)), [github]([url](https://github.com/pjreddie/darknet))), [v4]([url](https://github.com/AlexeyAB)), [YoloX]([url](https://github.com/Megvii-BaseDetection/YOLOX)), [YoloR]([url](https://github.com/WongKinYiu/yolor))
+### Yolo: v3([web](https://pjreddie.com/darknet/yolo/), [github](https://github.com/pjreddie/darknet)), [v4](https://github.com/AlexeyAB), [YoloX](https://github.com/Megvii-BaseDetection/YOLOX), [YoloR](https://github.com/WongKinYiu/yolor)
 #### Helmet-Detection
 #### Data: [kaggle](https://www.kaggle.com/andrewmvd/hard-hat-detection), [2](https://www.kaggle.com/aditijain04/construction-site-images?select=IMG_20210428_142444__01.jpg), [3(audio)](https://www.kaggle.com/turkertuncer/construction-site-monitoring-sound-signals-dataset?select=1+%28102%29.wav), [4](https://www.kaggle.com/c/nfl-impact-detection/rules) & [5(Game)](https://www.kaggle.com/jianghanhan/tuning-deepsort-helmet-mapping-high-score)
 #### Test Video - [1](https://youtu.be/LX6QFDMioNE), [2](https://youtu.be/U4BVH-k_B-s), [3](https://youtu.be/H_f3zXhF1sw)
