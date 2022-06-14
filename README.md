@@ -107,7 +107,7 @@ git clone https://github.com/Jaeyoung-Lim/mavros_controllers.git
 ### ??? 
 https://github.com/HKUST-Aerial-Robotics/mockasimulator
 
-### ================ Mavros debuging ===============  
+### ------------ Mavros/PX4-Autopilot debuging ------------  
 ```
 e.g unable to take off
 rosrun mavros checkid
