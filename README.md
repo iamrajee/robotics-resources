@@ -89,7 +89,7 @@ Short the pin for in-built compass
 # ROS DRONE Package Installation, Debuging and Runing 
 # ===================================================
 
-## =========== Install Mavros and relavent Packages===========
+## ====== Install Mavros and relavent Packages=====
 ### Binary
 ```
 sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras  
@@ -122,7 +122,7 @@ cp Fast-Planner/storage/1024_iris_depth_camera ~/.ros/etc/init.d-posix/airframes
 
 
 
-# =========================== Building PX4-Autopilot (Ubuntu18)=============================
+# ========== Building PX4-Autopilot (Ubuntu18) =========
 ```
 cd /home/rajendra/
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
@@ -411,7 +411,7 @@ code loop_fusion/src/pose_graph_node.cpp
 code global_fusion/src/globalOpt.cpp  
 code global_fusion/src/globalOptNode.cpp  
 ```
-# ===================== rtab drone examples =================#
+# ========== rtab drone examples ===========#
 ```
 cd drone_ws/src  
 https://github.com/matlabbe/rtabmap_drone_example  
@@ -431,7 +431,7 @@ rosrun rtabmap_drone_example offboard
 ??
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py  
 ```
-# ========= Malintha rrt algo(Not Important) ============
+# ===== Malintha rrt algo(Not Important) ======
 ```
 => https://github.com/Malintha, https://github.com/malintha/rrt-ros  
 roscore  
@@ -439,7 +439,7 @@ rosrun rrt-planning rrt
 rosrun rviz rviz #add mark from available topic  
 ```
 
-# ========================= XTDrone ======================#
+# =============== XTDrone ============#
 ## [Repo](https://github.com/robin-shaun/XTDrone); [README](https://github.com/robin-shaun/XTDrone/blob/master/README.en.md); [Docs](https://www.yuque.com/xtdrone/manual_en/basic_config); [Paper1](https://arxiv.org/abs/2003.09700); [Paper2](https://arxiv.org/abs/2005.01125); [OneTab](https://www.one-tab.com/page/0u1LirD-RLW6bT_6dFhM8Q)
 ```
 sudo apt install ros-melodic-mavros-extras  
@@ -498,7 +498,7 @@ python multirotor_keyboard_control.py iris 1 vel
 
 ```
 
-# ========================== KALIBR ========================== #
+# ================ KALIBR ============ #
 ## Run ##
 ### Realsense 
 ## -------- Record---------#
@@ -533,7 +533,7 @@ rosbag record /cam0/image_raw /cam1/image_raw
 
 ### ImportError: No module named sm
 => source devel/setup.bash  
-# ========================== OAK ========================== #
+# ============= OAK ============ #
 
 ## Could not find a package configuration file provided by "depthai"
 ```
@@ -544,22 +544,22 @@ catkin_make --cmake-args -D depthai_DIR=/home/rajendra/oak_ws/depthai
 roslaunch depthai_examples stereo_node.launch  
 ```
 
-# ======================== QGC Installation =================
+# ================ QGC Installation =============
 After downloading QGC.Image  
 sudo usermod -a -G dialout $USER  
 sudo apt-get remove modemmanager  
 
-# ======================== ROSDEP Error =================
+# =============== ROSDEP Error =================
 rosdep: command not found  
 sudo apt install python-rosdep  
 
 
-# =========================== Realsense Driver & SDK Install =========================
+# ========== Realsense Driver & SDK Install ============
 https://robots.uc3m.es/installation-guides/install-realsense2.html  
 
 
 
-# =========================== PX4 VIO Demo =========================
+# =============== PX4 VIO Demo ==============
 source devel/setup.bash && roslaunch vins vins_rviz.launch  
 source devel/setup.bash && rosrun vins vins_node ~/drone_ws/src/VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml /vins_estimator/odometry:=/camera/odom/sample  
 source devel/setup.bash && rosbag play bagfiles/MH_04_difficult.bag  
