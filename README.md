@@ -77,6 +77,7 @@ More resources: [1](https://github.com/jbhuang0604/awesome-computer-vision), [2]
 #### Test Video - [1](https://youtu.be/LX6QFDMioNE), [2](https://youtu.be/U4BVH-k_B-s), [3](https://youtu.be/H_f3zXhF1sw)
 #### Paper: [1](https://www.hindawi.com/journals/ace/2020/9703560/)
 #### Github: [all](https://github.com/topics/helmet-detection), [1](https://github.com/wujixiu/helmet-detection), [2](https://github.com/gengyanlei/reflective-clothes-detect-yolov5), [3](https://github.com/rafiuddinkhan/Yolo-Training-GoogleColab), [4](https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT)
+##### Fire: [1](https://www.youtube.com/watch?v=-4fYTWBtUt4),[2](https://www.youtube.com/watch?v=1CI7d27Ybwg),[3](https://www.youtube.com/watch?v=d3udINsq6es), [4](https://youtu.be/MyaHvSwiFuo)
 
 
 ## --------- Object Tracking ---------
