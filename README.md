@@ -67,7 +67,11 @@ Short the pin for in-built compass
 
 ## =========== Computer Vision ===========
 ### --------- Object Detection ---------
-### Yolo: v3([web](https://pjreddie.com/darknet/yolo/), [github](https://github.com/pjreddie/darknet)), [v4](https://github.com/AlexeyAB), [YoloX](https://github.com/Megvii-BaseDetection/YOLOX), [YoloR](https://github.com/WongKinYiu/yolor)
+### Yolo: v3([web](https://pjreddie.com/darknet/yolo/), [github](https://github.com/pjreddie/darknet)), [v4](https://github.com/AlexeyAB), [YoloX](https://github.com/Megvii-BaseDetection/YOLOX), [YoloR](https://github.com/WongKinYiu/yolor), Yolov6([blog1](https://blog.roboflow.com/yolov6/
+https://blog.roboflow.com/how-to-train-yolov6-on-a-custom-dataset/), [blog2](https://blog.roboflow.com/how-to-train-yolov6-on-a-custom-dataset/)), {Recommended}Yolov7([git](https://github.com/WongKinYiu/yolov7), [tutorial](https://youtu.be/bkWeWmvYFvY), [colab](https://colab.research.google.com/drive/1ghOF0keolHILfSdT8XDJhxKEcoaCe2cu?usp=sharing)), [**Walt**](https://www.cs.cmu.edu/~walt/)
+More resources: [1](https://github.com/jbhuang0604/awesome-computer-vision), [2](https://github.com/haofanwang/Awesome-Computer-Vision), [3](https://github.com/tzxiang/awesome-computer-vision-papers)
+#### Usecase:
+###### Construction([1](https://www.youtube.com/watch?v=sKpMdfVRXX8),[2](https://youtu.be/L-4RVLVsG1Y),[3](https://youtu.be/eSBTE9G8-P4),4)
 #### Helmet-Detection
 #### Data: [kaggle](https://www.kaggle.com/andrewmvd/hard-hat-detection), [2](https://www.kaggle.com/aditijain04/construction-site-images?select=IMG_20210428_142444__01.jpg), [3(audio)](https://www.kaggle.com/turkertuncer/construction-site-monitoring-sound-signals-dataset?select=1+%28102%29.wav), [4](https://www.kaggle.com/c/nfl-impact-detection/rules) & [5(Game)](https://www.kaggle.com/jianghanhan/tuning-deepsort-helmet-mapping-high-score)
 #### Test Video - [1](https://youtu.be/LX6QFDMioNE), [2](https://youtu.be/U4BVH-k_B-s), [3](https://youtu.be/H_f3zXhF1sw)
