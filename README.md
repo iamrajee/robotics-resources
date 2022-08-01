@@ -91,11 +91,11 @@ More resources: [1](https://github.com/jbhuang0604/awesome-computer-vision), [2]
 
 
 
-# ===================================================
+# =============================================
 # ROS DRONE Package Installation, Debuging and Runing 
-# ===================================================
+# =============================================
 
-## ====== Install Mavros and relavent Packages=====
+## ===Install Mavros and relavent Packages===
 ### Binary
 ```
 sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras  
@@ -128,7 +128,7 @@ cp Fast-Planner/storage/1024_iris_depth_camera ~/.ros/etc/init.d-posix/airframes
 
 
 
-# ========== Building PX4-Autopilot (Ubuntu18) =========
+# === Building PX4-Autopilot (Ubuntu18) ===
 ```
 cd /home/rajendra/
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
