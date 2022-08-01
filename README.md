@@ -73,11 +73,12 @@ More resources: [1](https://github.com/jbhuang0604/awesome-computer-vision), [2]
 #### Usecase:
 ###### Construction([1](https://www.youtube.com/watch?v=sKpMdfVRXX8),[2](https://youtu.be/L-4RVLVsG1Y),[3](https://youtu.be/eSBTE9G8-P4),4)
 #### Helmet-Detection
-#### Data: [kaggle](https://www.kaggle.com/andrewmvd/hard-hat-detection), [2](https://www.kaggle.com/aditijain04/construction-site-images?select=IMG_20210428_142444__01.jpg), [3(audio)](https://www.kaggle.com/turkertuncer/construction-site-monitoring-sound-signals-dataset?select=1+%28102%29.wav), [4](https://www.kaggle.com/c/nfl-impact-detection/rules) & [5(Game)](https://www.kaggle.com/jianghanhan/tuning-deepsort-helmet-mapping-high-score)
-#### Test Video - [1](https://youtu.be/LX6QFDMioNE), [2](https://youtu.be/U4BVH-k_B-s), [3](https://youtu.be/H_f3zXhF1sw)
-#### Paper: [1](https://www.hindawi.com/journals/ace/2020/9703560/)
-#### Github: [all](https://github.com/topics/helmet-detection), [1](https://github.com/wujixiu/helmet-detection), [2](https://github.com/gengyanlei/reflective-clothes-detect-yolov5), [3](https://github.com/rafiuddinkhan/Yolo-Training-GoogleColab), [4](https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT)
-##### Fire: [1](https://www.youtube.com/watch?v=-4fYTWBtUt4),[2](https://www.youtube.com/watch?v=1CI7d27Ybwg),[3](https://www.youtube.com/watch?v=d3udINsq6es), [4](https://youtu.be/MyaHvSwiFuo)
+##### Data: [kaggle](https://www.kaggle.com/andrewmvd/hard-hat-detection), [2](https://www.kaggle.com/aditijain04/construction-site-images?select=IMG_20210428_142444__01.jpg), [3(audio)](https://www.kaggle.com/turkertuncer/construction-site-monitoring-sound-signals-dataset?select=1+%28102%29.wav), [4](https://www.kaggle.com/c/nfl-impact-detection/rules) & [5(Game)](https://www.kaggle.com/jianghanhan/tuning-deepsort-helmet-mapping-high-score)
+##### Test Video - [1](https://youtu.be/LX6QFDMioNE), [2](https://youtu.be/U4BVH-k_B-s), [3](https://youtu.be/H_f3zXhF1sw)
+##### Paper: [1](https://www.hindawi.com/journals/ace/2020/9703560/)
+##### Github: [all](https://github.com/topics/helmet-detection), [1](https://github.com/wujixiu/helmet-detection), [2](https://github.com/gengyanlei/reflective-clothes-detect-yolov5), [3](https://github.com/rafiuddinkhan/Yolo-Training-GoogleColab), [4](https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT)
+#### Fire: [1](https://www.youtube.com/watch?v=-4fYTWBtUt4),[2](https://www.youtube.com/watch?v=1CI7d27Ybwg),[3](https://www.youtube.com/watch?v=d3udINsq6es), [4](https://youtu.be/MyaHvSwiFuo)
+#### Leaf Health and Disease: Data[1,2,3,4], Paper[[1](https://www.nature.com/articles/s41598-022-06181-z.pdf),[2](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9402225),[3](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8368703),[4](https://www.researchgate.net/publication/344123681_Tea_leaf_disease_detection_using_multi-objective_image_segmentation)], Test Video[1,2,3,4], Code[[Git](https://github.com/topics/leaf-disease), [1](https://github.com/moefqy/gmb-tea-leaves-detector),[2](https://github.com/Alok-Ranjan23/Tea-Leaf-Disease-Prediction-Using-Texture-Based-Image-Processing),[3_matlab](https://github.com/AabidPatel/Leaf-Disease-Detection-and-Health-Grading-System-using-MATLAB),[4](https://github.com/Aakash1822/Projects), [5](https://github.com/johri002/Automatic-leaf-infection-identifier) [more](https://github.com/topics/plant-disease)]
 
 
 ## --------- Object Tracking ---------
